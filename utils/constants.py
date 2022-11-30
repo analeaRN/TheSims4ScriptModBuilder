@@ -7,6 +7,7 @@ project_dir = config['Directory']['ProjectDir']
 game_content_dir = config['Directory']['Sims4GameContentDir']
 mods_dir = config['Directory']['Sims4ModDir']
 uncompyle6 = config['Dependency']['Uncompyle6Path']
+decompyle3 = config['Dependency']['Decompyle3Path']
 mod_name = config['Mod']['Name']
 num_decompilers = config.getint('Dependency','workers')
 
